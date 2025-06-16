@@ -1,4 +1,4 @@
-package media_models.base_model;
+package services.media_service.model.base_model;
 
 public abstract class Media {
     protected String title;

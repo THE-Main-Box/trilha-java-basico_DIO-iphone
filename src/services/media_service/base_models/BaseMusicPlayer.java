@@ -1,7 +1,7 @@
 package services.media_service.base_models;
 
 import components_model.MediaManagementComponent;
-import media_models.model.Music;
+import services.media_service.model.models.Music;
 
 public class BaseMusicPlayer implements MediaPlayer {
     protected MediaManagementComponent mediaManager = new MediaManagementComponent();

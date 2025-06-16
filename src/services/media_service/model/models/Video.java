@@ -1,6 +1,6 @@
-package media_models.model;
+package services.media_service.model.models;
 
-import media_models.base_model.Media;
+import services.media_service.model.base_model.Media;
 
 public class Video extends Media {
     public Video(String title, String path) {

@@ -1,5 +1,7 @@
-import media_models.model.Music;
-import media_models.model.Video;
+import services.browsing_service.SimpleBrowser;
+import services.browsing_service.WebBrowser;
+import services.media_service.model.models.Music;
+import services.media_service.model.models.Video;
 import services.call_service.Call;
 import services.call_service.Contact;
 import services.media_service.base_models.BaseMusicPlayer;
@@ -11,7 +13,24 @@ public class Iphone {
         testMediaPlayers();
         System.out.println("//-//-//-//-//-//-//-//-///-//");
         testCallSystem();
+        System.out.println("//-//-//-//-//-//-//-//-///-//");
+        testWebBrowsing();
     }
+
+    private static void testWebBrowsing() {
+        SimpleBrowser browser = new SimpleBrowser();
+
+        browser.openURL("https://exemplo.com");
+        browser.loadCurrentPage();
+        browser.renderCurrentPage();
+
+        browser.search("navegador iphone simulado");
+        browser.loadCurrentPage();
+        browser.renderCurrentPage();
+
+        browser.refresh(); // agora só recarrega a atual
+    }
+
 
     private static void testCallSystem(){
         Contact alice = new Contact("12345", "Alice");

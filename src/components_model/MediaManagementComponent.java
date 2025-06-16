@@ -1,6 +1,6 @@
 package components_model;
 
-import media_models.base_model.Media;
+import services.media_service.model.base_model.Media;
 
 import java.util.HashMap;
 import java.util.Map;

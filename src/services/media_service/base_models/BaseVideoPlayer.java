@@ -1,7 +1,7 @@
 package services.media_service.base_models;
 
 import components_model.MediaManagementComponent;
-import media_models.model.Video;
+import services.media_service.model.models.Video;
 
 public class BaseVideoPlayer implements MediaPlayer {
 

@@ -20,3 +20,23 @@ Este módulo simula o sistema de chamadas de um iPhone, respeitando os estados d
 
 ### 📞 Diagrama de Classes - Sistema de Chamadas
 ![Diagrama de Classes](diagrams/Editor%20_%20Mermaid%20Chart-2025-06-16-173704.png)
+
+---
+
+## 🌐 Módulo: Navegador Web Simulado
+
+Este módulo simula um navegador básico dentro do iPhone. Ele possui suporte para:
+
+- Abrir URLs
+- Pesquisar termos (convertendo em uma URL simulada)
+- Adicionar novas abas
+- Recarregar a página atual
+- Delegar carregamento e renderização para objetos do tipo `Page`
+
+A arquitetura é baseada em uma interface `WebBrowser` e uma implementação concreta `SimpleBrowser`, promovendo flexibilidade e desacoplamento.
+
+### 🌐 Diagrama de Classes - Sistema de Navegação Web
+
+![Diagrama de Classes](./diagrams/Editor%20_%20Mermaid%20Chart-2025-06-16-175750.png)
+
+---

@@ -1,6 +1,6 @@
 package services.media_service.base_models;
 
-import media_models.base_model.Media;
+import services.media_service.model.base_model.Media;
 
 public interface MediaPlayer {
     default void play(Media media) {
