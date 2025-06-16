@@ -1,18 +1,16 @@
-package service_models.base_model;
+package services.media_service.base_models;
 
 import components_model.MediaManagementComponent;
-import media_models.model.Video;
-import service_models.interfaces.MediaPlayer;
+import media_models.model.Music;
 
-public class BaseVideoPlayer implements MediaPlayer {
-
+public class BaseMusicPlayer implements MediaPlayer {
     protected MediaManagementComponent mediaManager = new MediaManagementComponent();
 
-    public void addVideo(Video video) {
-        mediaManager.addMedia(video);
+    public void addMusic(Music music) {
+        mediaManager.addMedia(music);
     }
 
-    public void selectVideo(String key) {
+    public void selectMusic(String key) {
         mediaManager.selectCurrentMediaByKey(key);
     }
 
@@ -20,8 +18,7 @@ public class BaseVideoPlayer implements MediaPlayer {
         this.play(mediaManager.getCurrentMedia());
     }
 
-    public void pause() {
+    public void pause(){
         this.pause(mediaManager.getCurrentMedia());
     }
-
 }

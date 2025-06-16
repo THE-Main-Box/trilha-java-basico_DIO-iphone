@@ -1,4 +1,4 @@
-package service_models.interfaces;
+package services.media_service.base_models;
 
 import media_models.base_model.Media;
 

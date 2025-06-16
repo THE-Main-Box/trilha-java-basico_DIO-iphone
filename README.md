@@ -11,3 +11,12 @@ Este módulo contém a arquitetura para reprodução de mídias de forma genéri
 ## 🎵 Diagrama de Classes - Sistema de Mídia
 
 ![Diagrama de Classes](./diagrams/Editor%20_%20Mermaid%20Chart-2025-06-16-170025.png)
+
+---
+
+## 📞 Módulo: Sistema de Chamadas
+
+Este módulo simula o sistema de chamadas de um iPhone, respeitando os estados da ligação (iniciada, tocando, em andamento e encerrada).
+
+### 📞 Diagrama de Classes - Sistema de Chamadas
+![Diagrama de Classes](diagrams/Editor%20_%20Mermaid%20Chart-2025-06-16-173704.png)
